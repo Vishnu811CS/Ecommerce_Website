@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ysabeau+Infant:wght@700&display=swap');
+
+*{
+  margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Ysabeau Infant', sans-serif;*/
+
+.navbar {
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: uppercase;
+ 
+}
+.nav-link {
+  font-weight: 200;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: 'Ysabeau Infant', sans-serif;
+  letter-spacing: 3px;
+}
+
+
+.footer {
+  color: white;
+  padding: 20px;
+  background: linear-gradient(to right, purple,#1a1a1a);
+  margin-bottom: auto; /* Pushes the footer to the bottom */
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 5px solid #ffefba;
+}
+
+/*
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  flex-direction: column;
+}
+*/
+
+
+/*
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.cat-btn {
+  padding: 40px 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.cat-btn:hover {
+  background-color: #434343;
+  color: white;
+}
+
+
+.dashboard {
+  margin-top: 100px !important;
+}
+
+.dashboard-menu h4 {
+  background-color: #434343 !important;
+  color: white;
+  padding: 20px 0px;
+}
+*/
+/* ==================== */
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.cat-btn {
+  padding: 40px 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.cat-btn:hover {
+  background-color: #434343;
+  color: white;
+}
+/* ================
+====dashboard
+=================== */
+
+.dashboard {
+  margin-top: 100px !important;
+}
+
+.dashboard-menu h4 {
+  background-color: #434343 !important;
+  color: white;
+  padding: 20px 0px;
+}
